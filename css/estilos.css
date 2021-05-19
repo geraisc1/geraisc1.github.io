@@ -1,0 +1,97 @@
+/* Footer */
+
+
+/* ------------------------- */
+
+footer .redes-sociales {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+footer .redes-sociales label {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+footer .redes-sociales a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 100px;
+    transition: .3s ease all;
+}
+
+footer .redes-sociales .whatssap {
+    background: #2EFE64;
+}
+
+footer .redes-sociales .face {
+    background: #524BDE;
+}
+
+footer .redes-sociales .gmail {
+    background: #CF5560;
+}
+
+footer .redes-sociales a i {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+footer .contenedor-icono:hover a {
+    animation: icono .5s ease;
+}
+
+@keyframes icono {
+    from {
+        transform: rotate3d(0, 0, 0, 0);
+    }
+    to {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+footer .creado-por {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #c13584;
+    margin-top: 120px;
+}
+
+footer .creado-por a {
+    color: #ffffff;
+}
+
+footer .creado-por a:hover {
+    text-decoration: underline;
+}
+
+
+/* ------------------------- */
+
+
+/* Mediaqueries */
+
+
+/* ------------------------- */
+
+@media screen and (max-width: 700px) {
+    .grid .item {
+        width: calc(50% - 20px);
+    }
+    header .barra-busqueda {
+        width: 100%;
+    }
+}
