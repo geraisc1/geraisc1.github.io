@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de imágenes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">        
+        <h2 class="header__title">Galeria</h2>        
+    </header>
+    <main class="main-container">                
+        <section class="categorias">                
+                <a href="#" class="categoria" data-categoria="paisajes">Paisajes</a>    
+                <a href="#" class="categoria" data-categoria="retratos">Retratos</a>
+                <a href="#" class="categoria" data-categoria="abstractos">Abstractos</a>                
+        </section>
+        <section class="galeria">
+            <div class="imagenes">
+                <!-- Imágenes se cargarán dinámicamente aquí -->
+            </div>
+        </section>
+    </main>
+    
+    <div class="container-img">
+        <i class='bx bx-x'></i>        
+        <div class="image-content">
+            <img class="img-show" src="" alt="retrato1">
+            <p class="img__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

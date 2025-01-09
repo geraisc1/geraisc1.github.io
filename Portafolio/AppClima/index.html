@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>weather app</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>		
+	</head>
+<body>
+	<header>
+		<div class="header__search">
+			<i class='bx bx-search'></i>			
+			<input id="get-city" type="text" placeholder="search city here" />
+		</div>		
+	</header>
+	<main class="main-container">		
+		<!--SECTION WEATHER-->
+			<section class="weather">
+				
+				<h3 class="city-name"></h3>					
+				<p class="date-info"><span class="day"></span><span class="date"></span></p>
+
+				<!--Informacion general-->
+				<div class="weater__info">
+					<span class="weather-icon"></span>								
+					<div class="weater__title">
+						<h2 class="weather-deg"></h2>
+						<h3 class="weather-condition"></h3>
+					</div>
+				</div>				
+			</section>
+
+			<section class="weather__statistics">
+				<!--statistics-->				
+					<div>
+						<i class='bx bx-wind'></i>
+						<span class="wind">11km/hr</span>
+					</div>
+					<div>
+						<i class='bx bxs-droplet-half'></i>
+						<span class="humidity">02%</span>					
+					</div>										
+			</section>
+
+			<section class="forecast">				
+				<ul class="forecast__week">
+					<li>
+						<span class="day-name">Lunes</span>
+						<span class="day-icon"></span>
+						<span class="day-temp"></span>
+					</li>
+					<li>
+						<span class="day-name">Martes</span>
+						<span class="day-icon"></span>
+						<span class="day-temp"></span>
+					</li>
+					<li>
+						<span class="day-name">Miercoles</span>
+						<span class="day-icon"></span>
+						<span class="day-temp"></span>
+					</li>
+					<li>
+						<span class="day-name">Jueves</span>
+						<span class="day-icon"></span>
+						<span class="day-temp"></span>
+					</li>						
+				</ul>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Gerardo Briseño</title>
+</head>
+<body>
+    <!-- Scroll Top -->
+    <a href="#home" class="scroll__top"><i class='bx bx-up-arrow-alt' ></i></a>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="#" class="logo">Gerardo</a>
+            <!--Navbar-->
+            <ul class="navbar">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>                
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#portafolio" class="nav__link">Portafolio</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <!--Menu Icon-->
+            <div class="menu-icon">
+                <div class="linea1"></div>
+                <div class="linea2"></div>
+                <div class="linea3"></div>
+            </div>
+        </div>
+    </header>
+    
+    <!--Home-->
+    <section class="home container" id="home">
+        <div class="home__content">
+            <div class="home__text">                
+                <h2>Web Developer</h2>
+                <h3><span class="color">I.S.C Gerardo Briseño</span></h3>
+                <p>
+                    Desarrollador web con experiencia en <span class="color">Javascript, CSS, Html, C#, y SQL</span> Apasionado por la creación de aplicaciones web inovadoras y la resolución de problemas.                                        
+                </p>
+                <!--Social-->
+                <div class="social">
+                    <a href="#portafolio" class="btn">
+                        view portafolio                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About -->
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about__content">
+            <div class="about__data">                
+                <div class="about__img">
+                    <img src="img/photo1.png" alt="profile" srcset="">
+                </div>
+                <div class="about__btn-cta">
+                    <a href="cv.docx" class="btn" download="">
+                        Download Cv
+                        <i class='bx bx-download'></i>
+                    </a>
+                </div>                
+            </div>
+            <div class="about__text">
+                <p>Desarrollador web apasionado por la programación con experiencia, en creación
+                    de aplicaciones web innovadoras y escalables. 
+                     </p><br>
+                <p>Me especializo en tecnologias como HTML5, CSS3, Javascript, SASS, C# y SQL.</p><br>
+                <p>Mi objetivo es crear soluciones web que mejoren la experiencia del usuario y aumenten la pruductividad de las empresas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+     <section class="skills container" id="skills">
+        <!--Heading-->
+        <h2 class="heading">Skills</h2>
+        <!--Skills content-->
+        <div class="skills__items">
+            <div class="skills__item-container">
+                <i class='bx bxl-html5'></i>
+                <span class="skills__title">Html</span>
+            </div>            
+            <div class="skills__item-container">
+                <i class='bx bxl-react' ></i>
+                <span class="skills__title">React</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-github' ></i>
+                <span class="skills__title">GitHub</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-javascript' ></i>
+                <span class="skills__title">Javascript</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-css3' ></i>
+                <span class="skills__title">CSS</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-visual-studio'></i>
+                <span class="skills__title">Visual Studio</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-sass' ></i>
+                <span class="skills__title">Sass</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxl-nodejs'></i>
+                <span class="skills__title">Node Js</span>
+            </div>
+            <div class="skills__item-container">
+                <i class='bx bxs-data' ></i>
+                <span class="skills__title">SQL</span>
+            </div>  
+            <div class="skills__item-container">
+                <i class='bx bxl-bootstrap'></i>
+                <span class="skills__title">Bootstrap</span>
+            </div>            
+        </div>
+     </section>
+
+    <!-- Portafolio -->
+    <section class="portafolio container" id="portafolio">
+        <!--Heading-->
+        <h2 class="heading">Portafolio</h2>
+        <!--Portafolio content-->
+        <div class="portafolio__content">            
+            <div class="portfolio__box-container">
+                <div class="portafolio__box">
+                    <img src="img/project1.png" alt="" class="portafolio__img">
+                    <!--Overlay-->
+                    <div class="portafolio__overlay">
+                        <h2>Web API</h2>
+                        <a href="Portafolio/AppClima/index.html" target="_blank">
+                            <i class='bx bx-link-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Details section-->
+                <div class="portfolio__details">
+                    <h2 class="portfolio__title">App weather api</h2>
+                    <p class="portfolio__paragraph">Aplicación del clima cosumiendo la weatherApi con Javascript, CSS3,HTML5</p>
+                    <a href="Portafolio/AppClima/index.html" target="_blank" class="btn">
+                        Demo
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>    
+            </div>
+
+            <div class="portfolio__box-container">
+                <div class="portafolio__box">
+                    <img src="img/project2.png" alt="" class="portafolio__img">
+                    <!--Overlay-->
+                    <div class="portafolio__overlay">
+                        <h2>Web Designing</h2>
+                        <a href="Portafolio/GaleriaFinal/index.html" target="_blank">
+                            <i class='bx bx-link-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Details section-->
+                <div class="portfolio__details">
+                    <h2 class="portfolio__title">Galeria Ligbox</h2>
+                    <p class="portfolio__paragraph">Galeria de imagenes por categoria con efecto overlay con Javascript, HTML5, y CSS3</p>
+                    <a href="#" class="btn">
+                        Demo
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>    
+            </div>
+            
+            <div class="portfolio__box-container">
+                <div class="portafolio__box">
+                    <img src="img/project3.png" alt="" class="portafolio__img">
+                    <!--Overlay-->
+                    <div class="portafolio__overlay">
+                        <h2>Web Designing</h2>
+                        <a href="Portafolio/Organizer Responsive event/index.html" target="_blank">
+                            <i class='bx bx-link-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Details section-->
+                <div class="portfolio__details">
+                    <h2 class="portfolio__title">Organizador de eventos</h2>
+                    <p class="portfolio__paragraph">Pagina web moderna, interactiva y personalizada  | Javascript, HTML5, CSS3, Swiper Js</p>
+                    <a href="#" class="btn">
+                        Demo
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>    
+            </div>
+
+            <div class="portfolio__box-container">
+                <div class="portafolio__box">
+                    <img src="img/project4.png" alt="" class="portafolio__img">
+                    <!--Overlay-->
+                    <div class="portafolio__overlay">
+                        <h2>Web API</h2>
+                        <a href="Portafolio/app newsApi/index.html" target="_blank">
+                            <i class='bx bx-link-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Details section-->
+                <div class="portfolio__details">
+                    <h2 class="portfolio__title">Aplicación web de noticias</h2>
+                    <p class="portfolio__paragraph">Aplicación de noticias por categorias utilizando la newsApi | Javascript, HTML5, CSS3, y news API</p>
+                    <a href="#" class="btn">
+                        Demo
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </section>
+    
+    <!--Contact Form-->
+    <section class="contact container" id="contact">
+        <!--Heading-->
+        <h2 class="heading">Contact</h2>
+        <!--Contact Form-->
+        <form action="#" class="contact__form" id="contact__form">
+            <input type="text" id="" class="name" placeholder="Your Name" required >
+            <input type="email" id="" class="email" placeholder="Email Adress..." required>
+            <textarea name="" id="" class="message" cols="30" rows="10" placeholder="Write message here... "></textarea>
+            <input type="submit" value="Send" class="send__btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/geraisc1" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://x.com/GerardoDev1" target="_blank"><i class='bx bxl-xing'></i></a>
+        </div>
+        <!-- Footer links -->
+        <div class="footer__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!-- Copyright -->
+        <p>&#169: I.S.C Gerardo Cruz Briseño</p>
+    </section>
+
+    <!--Email Js Link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Sweet Alert Js Link-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init('jJWiT2hdSwF0zy9Va');//Your will use your email js api key here
+        })();
+    </script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
